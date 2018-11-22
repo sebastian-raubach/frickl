@@ -9,6 +9,7 @@ The images will be extracted one by one from the zip files, so no initial extrac
 
 ## Requirements
 
+- All your Flickr data (zipped as downloaded) in a folder
 - Java 8 or above
 - Maven (if you want to build yourself)
 
