@@ -14,7 +14,7 @@ The images will be extracted one by one from the zip files, so no initial extrac
 
 ## Usage
 ### Build (optional)
-First, build the `Frickl.jar` file if it doesn't exist:
+First, build the `frickl.jar` file if it doesn't exist:
 
 ```bash
 mvn clean compile assembly:single -f pom.xml
@@ -22,7 +22,7 @@ mvn clean compile assembly:single -f pom.xml
 
 ### Run
 ```bash
-java -jar frickl.jar <folder containing zip files> <target folder>
+java -jar frickl-X.X.jar <folder containing zip files> <target folder>
 ```
 
 Make sure that there are no other files in your source folder.
